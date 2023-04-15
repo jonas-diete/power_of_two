@@ -5,3 +5,9 @@ def test_two_should_return_true():
     
 def test_three_should_return_false():
     assert power_of_two(3) == False
+
+def test_four_should_return_true():
+    assert power_of_two(4) == True
+
+def test_five_should_return_false():
+    assert power_of_two(5) == False
