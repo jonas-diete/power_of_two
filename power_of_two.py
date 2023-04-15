@@ -1,5 +1,8 @@
 def power_of_two(number):
-    if number == 2 or number == 4 or number == 8:
-        return True
-    else:
-        return False
+    start = 2
+    while start <= number:
+        if start == number:
+            return True
+        else:
+            start *= 2
+    return False
