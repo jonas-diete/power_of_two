@@ -1,5 +1,5 @@
 def power_of_two(number):
-    start = 2
+    start = 1
     while start <= number:
         if start == number:
             return True
