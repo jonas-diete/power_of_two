@@ -20,3 +20,15 @@ def test_eight_should_return_true():
 
 def test_sixteen_should_return_true():
     assert power_of_two(16) == True
+
+def test_thirtytwo_should_return_true():
+    assert power_of_two(32) == True
+
+def test_thousandtwentyfour_should_return_true():
+    assert power_of_two(1024) == True
+
+def test_fourthousandninetysix_return_true():
+    assert power_of_two(4096) == True
+
+def test_eightthousandonehundredninetytwo_return_true():
+    assert power_of_two(8192) == True
