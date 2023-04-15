@@ -32,3 +32,12 @@ def test_fourthousandninetysix_return_true():
 
 def test_eightthousandonehundredninetytwo_return_true():
     assert power_of_two(8192) == True
+
+def test_fifty_return_true():
+    assert power_of_two(50) == False
+
+def test_threethousand_return_true():
+    assert power_of_two(3000) == False
+
+def test_hundredandtwentyseven_return_true():
+    assert power_of_two(127) == False
