@@ -14,3 +14,6 @@ def test_five_should_return_false():
 
 def test_six_should_return_false():
     assert power_of_two(6) == False
+
+def test_eight_should_return_true():
+    assert power_of_two(8) == True
